@@ -1,0 +1,79 @@
+body,html{
+    background-color: rgb(64, 64, 88);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 100%;
+    margin:0;
+}
+.title{
+    margin-bottom: 30px;
+}
+.center-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    display: flex;
+}
+.box{
+    background-color: rgb(71, 88, 133);
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+}
+.numbers{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    gap:5px;
+}
+#number1{
+    background-color: rgb(162, 162, 204);
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+#number2{
+    background-color: rgb(162, 162, 204);
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+button{
+    background-color: rgba(171, 143, 202, 0.541);
+    font-size: x-large;
+    font-weight:bolder;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    height: 100px;
+    padding:10px;
+    width: 48%;
+}
+button:hover{
+    opacity: 0.75;
+}
+.operations{
+    justify-content: space-between;
+    margin-left: 95px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 200px;
+}
+#result{
+    background-color: rgb(154, 161, 184);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 95px;
+    margin-top: 20px;
+    display: flex;
+    width: 200px;
+    height: 80px;
+}
